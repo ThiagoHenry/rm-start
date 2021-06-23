@@ -1,0 +1,168 @@
+body, html {
+  /* background: #222 !important; */
+}
+
+body, #timeline .container, #section-texto2 .container {
+  background-repeat: no-repeat !important;
+  /* background-attachment: fixed; */
+  background-size: cover !important;
+}
+
+section {
+  background: transparent;
+}
+
+#header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+#gallery {
+  padding-top: 75px;
+}
+
+nav {
+  /* padding-top: 1rem !important;
+  padding-bottom: 1rem !important; */
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+table {
+	border-color: transparent !important;
+}
+
+
+/* SECTION 1 */
+.section-text1 h1{
+	line-height: 1.5;
+}
+/* FIM SECTION 1 */
+
+
+/* SECTION 2 */
+.carousel-caption {
+	top: 50%;
+    left: 50% !important;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: auto !important;
+}
+/* FIM SECTION 2 */
+
+
+/* TIMELINE */
+.timeline .sub-titulo {
+  min-height: 80px;
+}
+
+#timeline hr {
+  height: 5px !important;
+  background: white !important;
+  opacity: 1 !important;
+  width: 80%;
+}
+/* FIM TIMELINE */
+
+
+/* FOOTER */
+footer hr {
+  background-color: #41464b !important;
+  margin: 2px 0;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 2px 7px 0px #000000;
+  box-shadow: 0px 10px 13px -7px #000000, 0px 2px 7px 0px #000000;
+}
+
+.sociais {
+  display: flex;
+}
+
+.social:hover {
+  filter: brightness(80%);
+}
+
+.social i {
+  color: white;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  padding-top: 9px;
+  background: #7f522a;
+  border-radius: 50%;
+}
+
+.icon-wpp img {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* FIM FOOTER */
+
+
+
+
+
+
+
+
+/* CLASES */
+.bg-dark-opacity {
+  background: rgb(19 18 18 / 75%)
+}
+/* FIM CLASES */
+
+/* OWL CAROUSEL */
+.owl-next span, .owl-prev span {
+	color: white;
+  position: absolute;
+  margin: -28px -5px;
+}
+
+.owl-next, .owl-prev {
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 45%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+  font-size: 2.1em !important;
+  text-align: center;
+  background: rgb(0 0 0 / 75%) !important;
+  border-radius: 13% !important;
+  width: 50px;
+  height: 50px;
+  }
+
+  .owl-next:hover, .owl-prev:hover {
+    background: rgb(0 0 0 / 90%) !important;
+  }
+
+.owl-next {
+	left: 90%;
+}
+
+.owl-prev {
+	left: 10%;
+}
+/*FIM OWL CAROUSEL */
